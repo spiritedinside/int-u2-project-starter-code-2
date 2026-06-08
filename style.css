@@ -1,4 +1,8 @@
 /* The code below centers the text of all h1's on the page. */
+* {
+    font-family: Aclonica, AR One Sans;
+}
+
 h1 {
     text-align:center;
 }
@@ -8,7 +12,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
+  width:300px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+img:hover {
+  transition: transform 0.3s ease;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -26,4 +36,24 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+    border-radius: 10px;
+    padding: 10px;
 }
+
+.section:hover {
+    background-color: rgb(88, 82, 82);
+    color: white;
+}
+
+footer {
+    background-color: rgb(88, 82, 82);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+a {
+    color: white;
+}
+
