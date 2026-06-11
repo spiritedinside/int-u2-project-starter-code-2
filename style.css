@@ -36,6 +36,11 @@ img:hover {
   transform: scale(1.05);
 }
 
+iframe {
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
 /* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
